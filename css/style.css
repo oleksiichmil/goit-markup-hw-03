@@ -5,6 +5,9 @@ body {
   background-color: #fff;
 }
 
+img {
+  display: block;
+}
 a {
   text-decoration: none;
   line-height: 1.5;
