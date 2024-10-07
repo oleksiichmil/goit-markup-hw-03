@@ -8,17 +8,21 @@ body {
 img {
   display: block;
 }
+
 a {
   text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
 ul {
   list-style: none;
 }
+
 button {
   font-family: inherit;
 }
+
 h2 {
   font-size: 36px;
   font-weight: 700;
@@ -28,6 +32,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
 h3 {
   font-size: 20px;
   font-weight: 500;
@@ -35,6 +40,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
 .button {
   font-weight: 500;
   font-family: inherit;
@@ -50,6 +56,7 @@ h3 {
 .button:hover {
   background-color: #404bbf;
 }
+
 .button:focus {
   background-color: #404bbf;
 }
@@ -58,9 +65,22 @@ h3 {
 .hero-header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .div-container {
   display: flex;
 }
+
+.container {
+  width: 1158px;
+  padding: 0 15px 0 15px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0 24px;
+}
+
 .logo-darck {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -70,6 +90,7 @@ h3 {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .logo-light {
@@ -99,11 +120,15 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
+
 .nav-link:focus {
   color: #404bbf;
   letter-spacing: 0.02em;
 }
+
 .nav-link:hover {
   color: #404bbf;
   letter-spacing: 0.02em;
@@ -114,6 +139,7 @@ h3 {
   font-style: normal;
   letter-spacing: 0.02em;
 }
+
 .contact-link:focus {
   color: #404bbf;
   letter-spacing: 0.02em;
@@ -123,10 +149,14 @@ h3 {
   color: #404bbf;
   letter-spacing: 0.02em;
 }
+
 .address-header {
   font-style: normal;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
 }
+
 /* Hero section */
 
 .hero-section {
@@ -141,61 +171,74 @@ h3 {
   text-align: center;
   letter-spacing: 0.02em;
 }
+
 /* Our advantages section */
 .advantages-title {
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.2;
 }
+
 .advantages-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /* Team section */
 .team-section {
   background-color: #f4f4fd;
 }
+
 .team-title-hero {
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.11;
 }
+
 .team-title {
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.2;
 }
+
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .team-section-image {
   background-color: #fff;
 }
+
 /* Our Portfolio section */
 .portfolio-title-hero {
   color: #2e2f42;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+
 .portfolio-title {
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.2;
 }
+
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /* Footer */
 .footer {
   background-color: #2e2f42;
 }
+
 .footer-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
+
 .logo-studio {
   color: #f4f4fd;
 }
