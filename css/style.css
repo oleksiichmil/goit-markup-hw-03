@@ -55,6 +55,12 @@ h3 {
 }
 
 /* Header */
+.hero-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.div-container {
+  display: flex;
+}
 .logo-darck {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
