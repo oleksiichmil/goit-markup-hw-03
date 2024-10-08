@@ -81,7 +81,6 @@ h3 {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  margin-right: 76px;
 }
 .header-container {
   display: flex;
@@ -93,7 +92,7 @@ h3 {
 }
 .header-logo {
   padding: 24px;
-  margin: 76;
+  margin-right: 76px;
 }
 .logo-darck {
   color: #4d5ae5;
