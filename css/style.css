@@ -78,28 +78,34 @@ h3 {
 .button:focus {
   background-color: #404bbf;
 }
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 /* Header */
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header-container {
   display: flex;
   align-items: center;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
 }
+
 .header-logo {
   padding: 24px;
   margin-right: 76px;
 }
+
 .logo-darck {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -132,11 +138,13 @@ h3 {
   text-decoration: none;
   letter-spacing: 0.03em;
 }
+
 .nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
 }
+
 .nav-link {
   display: block;
   padding: 24px 0px;
@@ -155,11 +163,13 @@ h3 {
   color: #404bbf;
   letter-spacing: 0.02em;
 }
+
 .contact-list {
   display: flex;
   align-items: center;
   gap: 40px;
 }
+
 .contact-link {
   color: #434455;
   font-style: normal;
@@ -204,15 +214,42 @@ h3 {
 }
 
 /* Our advantages section */
+.our-advantages-section {
+  padding: 120px 0;
+}
+
 .advantages-title {
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-list-column {
+  width: calc((100% - 72px) / 4);
 }
 
 /* Team section */
@@ -275,6 +312,7 @@ h3 {
 .logo-studio {
   color: #f4f4fd;
 }
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
